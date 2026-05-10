@@ -4,7 +4,7 @@ import os
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split 
 from sklearn.ensemble import ExtraTreesClassifier
-# Функція візуалізації (вбудована)
+# Функція візуалізації
 def visualize_classifier(classifier, X, y, title=''):
     min_x, max_x = X[:, 0].min() - 1.0, X[:, 0].max() + 1.0
     min_y, max_y = X[:, 1].min() - 1.0, X[:, 1].max() + 1.0
